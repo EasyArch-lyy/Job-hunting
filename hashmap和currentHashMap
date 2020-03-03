@@ -1,0 +1,64 @@
+HashMap属性
+
+字段：
+// HashMap对应的序列化ID。
+private static final long serialVersionUID = 362498820763181265L; 
+//HashMap的哈希桶数组默认的初始化容量（2的4次方（也就是16）） 
+static final int DEFAULT_INITIAL_CAPACITY = 1 << 4; 
+//HashMap的哈希桶数组的最大容量（2的30次方） 
+static final int MAXIMUM_CAPACITY = 1 << 30; 
+//默认的加载因子 
+static final float DEFAULT_LOAD_FACTOR = 0.75f; 
+//HashMap中一个桶的树化的阀值（一旦在同一个哈希桶中的元素超过8个， //链表就会变成红黑树） //（这个也是JDK 1.8的新特性） 
+static final int TREEIFY_THRESHOLD = 8; 
+/HashMap中一个桶的链表化的阀值（一旦同一个哈希桶中元素少于6个，红黑树就变成了链表） 
+static final int UNTREEIFY_THRESHOLD = 6; 
+//哈系桶数组的最小树形化容量 //当哈希桶的容量大于这个值时，表中的桶才能进行树形化 
+static final int MIN_TREEIFY_CAPACITY = 64; 
+//HashMap中键值对的个数 
+transient int size; 
+//HashMap被修改的次数（主要用于快速失败（ArrayList和LinkedList等线程不安全的类都用到了这个变量）） 
+transient int modCount; 
+//HashMap中实际允许存储的键值对的最大数量 //（一旦超过这个值，表明哈系冲突很严重了，就需要扩容了。） 
+//threshold = table.length*loadFactor（也就是哈希桶数组的长度*加载因子） 
+int threshold; //加载因子(默认值是0.75) 
+final float loadFactor; //HashMap中的键值对缓存在entrySet中，即使key在外部修改导致hashCode变化，该缓存中 //仍然可以找到映射关系。 
+transient Set<Map.Entry<K,V>> entrySet;
+
+    初始化桶大小，因为底层是数组，所以这是数组默认的大小。
+    桶最大值。
+    默认的负载因子（0.75）
+    table 真正存放数据的数组。
+    Map 存放数量的大小。
+    桶大小，可在初始化时显式指定。
+    负载因子，可在初始化时显式指定。
+public HashMap() {
+        this(DEFAULT_INITIAL_CAPACITY, DEFAULT_LOAD_FACTOR);
+    }
+
+    public HashMap(int initialCapacity, float loadFactor) {
+        if (initialCapacity < 0)
+            throw new IllegalArgumentException("Illegal initial capacity: " +
+                                               initialCapacity);
+        if (initialCapacity > MAXIMUM_CAPACITY)
+            initialCapacity = MAXIMUM_CAPACITY;
+        if (loadFactor <= 0 || Float.isNaN(loadFactor))
+            throw new IllegalArgumentException("Illegal load factor: " +
+                                               loadFactor);
+
+        this.loadFactor = loadFactor;
+        threshold = initialCapacity;
+        init();
+    }
+
+给定的默认容量为 16，负载因子为 0.75。Map 在使用过程中不断的往里面存放数据，当数量达到了 16 * 0.75 = 12 就需要将当前 16 的容量进行扩容，而扩容这个过程涉及到 rehash、复制数据等操作，所以非常消耗性能。
+
+树化要满足两个条件：
+
+    链表长度大于等于 TREEIFY_THRESHOLD(8树化阀值，6链表化)
+    桶数组容量大于等于 MIN_TREEIFY_CAPACITY(64)
+
+
+----------------------------------ConcurrentHashMap----------------------------------
+ConcurrentHashMap 采用了分段锁技术，其中 Segment 继承于 ReentrantLock。不会像 HashTable 那样不管是 put 还是 get 操作都需要做同步处理，理论上 ConcurrentHashMap 支持 CurrencyLevel (Segment 数组数量)的线程并发。每当一个线程占用锁访问一个 Segment 时，不会影响到其他的 Segment。
+

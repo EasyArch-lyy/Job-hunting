@@ -1,0 +1,122 @@
+创建线程的2种方式:直接继承Thread，实现Runnable接口
+Java 1.5开始，就提供了Callable和Future，通过它们可以在任务执行完毕之后得到任务执行结果
+Callable接口使用泛型去定义它的返回类型。Executors类提供了一些有用的方法在线程池中执行Callable内的任务。由于Callable任务是并行的（并行就是整体看上去是并行的，其实在某个时间点只有一个线程在执行），我们必须等待它返回的结果。 
+java.util.concurrent.Future对象为我们解决了这个问题。在线程池提交Callable任务后返回了一个Future对象，使用它可以知道Callable任务的状态和得到Callable返回的执行结果。Future提供了get()方法让我们可以等待Callable结束并获取它的执行结果。
+
+//run()方法返回值为void类型，执行完任务之后无返回结果
+public interface Runnable {
+    public abstract void run();
+}
+
+//Callable位于java.util.concurrent包下，它是一个接口，在它里面声明了一个方法，只不过这个方法叫做call()：
+public interface Callable<V> {
+    /**
+     * Computes a result, or throws an exception if unable to do so.
+     *
+     * @return computed result
+     * @throws Exception if unable to compute a result
+     */
+    V call() throws Exception;//泛型接口，call()函数返回的类型就是传递进来的V类型。
+}
+
+//Future就是对于具体的Runnable或者Callable任务的执行结果进行取消、查询是否完成、获取结果。必要时可以通过get方法获取执行结果，该方法会阻塞直到任务返回结果。
+Future类位于java.util.concurrent包下，是接口：
+功能：
+
+　　1）判断任务是否完成；
+　　2）能够中断任务；
+　　3）能够获取任务执行结果。
+public interface Future<V> {
+    boolean cancel(boolean mayInterruptIfRunning);
+    boolean isCancelled();
+    boolean isDone();
+    V get() throws InterruptedException, ExecutionException;
+    V get(long timeout, TimeUnit unit)
+        throws InterruptedException, ExecutionException, TimeoutException;
+}
+
+Future只是一个接口，所以是无法直接用来创建对象使用的
+FutureTask实现了RunnableFuture接口，这个接口的定义如下：
+
+public interface RunnableFuture<V> extends Runnable, Future<V> {  
+    void run();  
+}  
+
+这个接口实现了Runnable和Future接口，接口中的具体实现由FutureTask来实现。
+两个构造方法如下 ：
+
+    public FutureTask(Callable<V> callable) {  
+        if (callable == null)  
+            throw new NullPointerException();  
+        sync = new Sync(callable);  
+    }  
+    public FutureTask(Runnable runnable, V result) {  
+        sync = new Sync(Executors.callable(runnable, result));  
+    }  
+
+如上提供了两个构造函数，一个以Callable为参数，另外一个以Runnable为参数。这些类之间的关联对于任务建模的办法非常灵活，允许你基于FutureTask的Runnable特性（因为它实现了Runnable接口），把任务写成Callable，然后封装进一个由执行者调度并在必要时可以取消的FutureTask。
+
+FutureTask可以由执行者调度，这一点很关键。它对外提供的方法基本上就是Future和Runnable接口的组合：get()、cancel、isDone()、isCancelled()和run()，而run()方法通常都是由执行者调用，我们基本上不需要直接调用它。
+
+----------------------------------volatile----------------------------------
+
+    volatile 是一个类型修饰符。volatile 的作用是作为指令关键字，确保本条指令不会因编译器的优化而省略。
+
+2.1 volatile 的特性
+
+    保证了不同线程对这个变量进行操作时的可见性，即一个线程修改了某个变量的值，这新值对其他线程来说是立即可见的。（实现可见性）
+    禁止进行指令重排序。（实现有序性）
+    volatile 只能保证对单次读/写的原子性。i++ 这种操作不能保证原子性。
+
+2.2 volatile 的实现原理
+2.2.1 volatile 可见性实现
+
+    volatile 变量的内存可见性是基于内存屏障（Memory Barrier）实现。
+        内存屏障，又称内存栅栏，是一个 CPU 指令。
+        在程序运行时，为了提高执行性能，编译器和处理器会对指令进行重排序，JMM 为了保证在不同的编译器和 CPU 上有相同的结果，通过插入特定类型的内存屏障来禁止特定类型的编译器重排序和处理器重排序，插入一条内存屏障会告诉编译器和 CPU：不管什么指令都不能和这条 Memory Barrier 指令重排序。
+
+----------------------------------synchronized----------------------------------
+synchronized 采用的是 CPU 悲观锁机制，即线程获得的是独占锁。独占锁就意味着 其他线程只能依靠阻塞来等待线程释放锁。而在 CPU 转换线程阻塞时会引起线程上下文切换，当有很多线程竞争锁的时候，会引起 CPU 频繁的上下文切换导致效率很低。尽管 Java1.6 为 synchronized 做了优化，增加了从偏向锁到轻量级锁再到重量级锁的过度，但是在最终转变为重量级锁之后，性能仍然较低。
+
+----------------------------------cas----------------------------------
+AtomicInteger当中常用的自增方法 incrementAndGet：
+
+
+public final int incrementAndGet() {
+    for (;;) {
+        int current = get();
+        int next = current + 1;
+        if (compareAndSet(current, next))
+            return next;
+    }
+}
+
+private volatile int value;
+
+public final int get() {
+    return value;
+}
+
+这段代码是一个无限循环，也就是CAS的自旋。循环体当中做了三件事：
+1.获取当前值。
+2.当前值+1，计算出目标值。
+3.进行CAS操作，如果成功则跳出循环，如果失败则重复上述步骤。
+
+public final boolean compareAndSet(int expect,int update){
+    return unsafe.compareAndSwapInt(this,valueOffset,except,update);
+}
+private static final Unsafe unsafe=Unsafe.getUnsafe();
+private static final long valueOffset;
+
+static{
+ try{
+  valueOffset=unsafe.objectFieldOffset(AtomicInteger.class.getDeclareField("value"));
+ }catch(Exception e){
+   throw new Error(e);
+ }
+}
+
+unsafe为我们提供了硬件级别的原子操作。valueOffset对象，是通过unsafe.objectFieldOffset方法得到，所代表的是AtomicInteger对象value成员变量在内存中的偏移量。我们可以简单地把valueOffset理解为value变量的内存地址。CAS机制当中使用了3个基本操作数：内存地址V，旧的预期值A，要修改的新值B。unsafe的compareAndSwapInt方法参数包括了这三个基本元素：valueOffset参数代表了V，expect参数代表了A，update参数代表了B,unsafe的compareAndSwapInt方法保证了Compare和Swap操作之间的原子性操作。
+
+
+
