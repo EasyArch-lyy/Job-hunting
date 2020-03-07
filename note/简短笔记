@@ -83,6 +83,35 @@ Redis 的链表实现的特性:
 带链表长度计数器： 程序使用 list 结构的 len 属性来对 list 持有的链表节点进行计数， 程序获取链表中节点数量的复杂度为 O(1) 。
 多态： 链表节点使用 void* 指针来保存节点值， 并且可以通过 list 结构的 dup 、 free 、 match 三个属性为节点值设置类型特定函数， 所以链表可以用于保存各种不同类型的值。
 
+
+{
+TCP连接过程：
+
+连接建立：
+(服务端应用层操作)                                                                            （客户端应用层）
+listenfd=socket()//分配一个文件描述符                                                 fd=socket()//分配文件描述符表
+bind(listenfd,服务端地址端口)//绑定listenfd源地址，端口                                connect(fd，服务器端口)//发起连接请求
+bind(listenfd,连接队列长度)//使listenfd称为监听描述符                                  阻塞等待服务器应答
+connfd=accept(listenfd,客户端地址端口)//阻塞等待客户端连接                             connect返回
+LISTEN                                 
+              <---SYN          SYN_SENT
+SYN_RCVE 
+            SYN+ACK-->         
+                               ESTABLISH 
+              <---ACK
+ESTABLISH
+
+连接建立循环
+read(connfd,buf,size)//阻塞等待客户端数据         <--DATA--             write(fd,buf,size)
+read返回，处理客户端数据请求                      --ACK--->             read(fd,buf,size)//阻塞等待数据应答
+write(connfd,buf,size)                           -DATA-->              
+                                                 <---ACK-              read返回
+read(connfd,buf,size)//阻塞等待客户端数据请求                             
+                                                 <----FIN              close(fd)//关闭连接(FIN_WAIT_1)
+read返回0                                        ACK----->             FIN_WAIT_2
+cloes(connfd)//(CLOSR_WAIT)                      FIN----->             TIME_WAIT
+CLOSED                                           <----ACK              CLOSED                                                                                     
+}
 -------------------------http1.0-------------------------------
 HTTP 协议老的标准是HTTP/1.0，为了提高系统的效率，HTTP 1.0规定浏览器与服务器只保持短暂的连接，浏览器的每次请求都需要与服务器建立一个TCP连接，服务器完成请求处理后立即断开TCP连接
 问题：连接无法复用，head of line blocking---->队头阻塞

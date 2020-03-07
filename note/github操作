@@ -1,0 +1,8 @@
+三、创建分支，提交到分支再合并
+执行： git branch test 创建一个test的分支
+执行： git checkout test 切换到test分支
+mark本地仓库上添加新的需要上传的代码
+执行： git add .
+执行： git commit -m "提交代码的说明"
+执行: git remote add origin url(mark仓库的地址)
+执行：git push origin test 本地仓库的代码提交到github上（期间要输入用户名和密码，也就是github上面的账号密码）
