@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c8cc95f-82e6-4017-8e58-606e0be24d36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/FilterChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Rule1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Rule2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/设计模式" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList源码" beforeDir="false" afterPath="$PROJECT_DIR$/note/ArrayList源码" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap和currentHashMap" beforeDir="false" afterPath="$PROJECT_DIR$/note/hashmap和currentHashMap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm" beforeDir="false" afterPath="$PROJECT_DIR$/note/jvm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/垃圾回收" beforeDir="false" afterPath="$PROJECT_DIR$/note/垃圾回收" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/简短笔记" beforeDir="false" afterPath="$PROJECT_DIR$/note/简短笔记" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线程方法" beforeDir="false" afterPath="$PROJECT_DIR$/note/线程方法" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面试笔记" beforeDir="false" afterPath="$PROJECT_DIR$/note/面试笔记" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/azureSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/Observerable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/WechatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/github操作" beforeDir="false" afterPath="$PROJECT_DIR$/note/github操作" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/面试笔记" beforeDir="false" afterPath="$PROJECT_DIR$/note/面试笔记" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/设计模式" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/设计模式" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -55,7 +52,7 @@
       <recent name="$PROJECT_DIR$/笔记包" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Design_pattern.Responsibility_chain.Client" />
       <module name="Job-hunting" />
@@ -69,8 +66,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_pattern.observerMode.Test" />
+      <module name="Job-hunting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Design_pattern.observerMode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
@@ -98,6 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583298628607</updated>
       <workItem from="1583298631926" duration="1152000" />
+      <workItem from="1583848397260" duration="399000" />
     </task>
     <servers />
   </component>
@@ -113,25 +125,33 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="558" y="338" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1583299117357" />
+    <state x="771" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1583848563180">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="771" y="247" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1583848563180" />
     <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583299165571">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1583299165570" />
-    <state width="1868" height="295" key="GridCell.Tab.0.bottom" timestamp="1583299784352">
+    <state x="698" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583848595476">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="295" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1583299784352" />
-    <state width="1868" height="295" key="GridCell.Tab.0.center" timestamp="1583299784350">
+    <state x="698" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1583848595476" />
+    <state width="1868" height="295" key="GridCell.Tab.0.bottom" timestamp="1583848796618">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="295" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1583299784350" />
-    <state width="1868" height="295" key="GridCell.Tab.0.left" timestamp="1583299784349">
+    <state width="1868" height="295" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1583848796618" />
+    <state width="1868" height="295" key="GridCell.Tab.0.center" timestamp="1583848796617">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="295" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1583299784349" />
-    <state width="1868" height="295" key="GridCell.Tab.0.right" timestamp="1583299784351">
+    <state width="1868" height="295" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1583848796617" />
+    <state width="1868" height="295" key="GridCell.Tab.0.left" timestamp="1583848796615">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="295" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1583299784351" />
+    <state width="1868" height="295" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1583848796615" />
+    <state width="1868" height="295" key="GridCell.Tab.0.right" timestamp="1583848796617">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1868" height="295" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1583848796617" />
   </component>
 </project>

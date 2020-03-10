@@ -18,3 +18,4 @@ rabbit做消息队列
 
 
         扩展：mysql  redis 一致性     -----------读redis，写操作mysql,binlog变化通知redis
+
