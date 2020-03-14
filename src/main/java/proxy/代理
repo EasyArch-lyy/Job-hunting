@@ -1,0 +1,19 @@
+静态代理
+由程序员创建或特定工具自动生成源代码，也就是在编译时就已经将接口，被代理类，代理类等确定下来。在程序运行之前，代理类的.class文件就已经生成。
+动态代理
+代理类在程序运行时创建的代理方式被成为动态代理。 我们上面静态代理的例子中，代理类(studentProxy)是自己定义好的，在程序运行之前就已经编译完成。然而动态代理，代理类并不是在Java代码中定义的，而是在运行时根据我们在Java代码中的“指示”动态生成的。相比于静态代理， 动态代理的优势在于可以很方便的对代理类的函数进行统一的处理，而不用修改每个代理类中的方法。 比如说，想要在每个代理的方法前都加上一个处理方法：
+在java的java.lang.reflect包下提供了一个Proxy类和一个InvocationHandler接口，通过这个类和这个接口可以生成JDK动态代理类和动态代理对象。
+
+    创建一个InvocationHandler对象
+//创建一个与代理对象相关联的InvocationHandler
+ InvocationHandler stuHandler = new MyInvocationHandler<Person>(stu);
+
+    使用Proxy类的getProxyClass静态方法生成一个动态代理类stuProxyClass
+  Class<?> stuProxyClass = Proxy.getProxyClass(Person.class.getClassLoader(), new Class<?>[] {Person.class});
+
+    获得stuProxyClass 中一个带InvocationHandler参数的构造器constructor
+Constructor<?> constructor = PersonProxy.getConstructor(InvocationHandler.class);
+
+    通过构造器constructor来创建一个动态实例stuProxy
+Person stuProxy = (Person) cons.newInstance(stuHandler);
+

@@ -1,0 +1,27 @@
+在运行期间，一个类，只有一个Class对象产生。
+1、获取Class对象的三种方式
+1.1 Object ——> getClass();
+1.2 任何数据类型（包括基本数据类型）都有一个“静态”的class属性
+1.3 通过Class类的静态方法：forName（String  className）(常用)
+2、通过反射获取构造方法并使用：
+   1.获取构造方法：
+     1).批量的方法：
+   public Constructor[] getConstructors()：所有"公有的"构造方法
+               public Constructor[] getDeclaredConstructors()：获取所有的构造方法(包括私有、受保护、默认、公有)
+
+     2).获取单个的方法，并调用：
+   public Constructor getConstructor(Class... parameterTypes):获取单个的"公有的"构造方法：
+   public Constructor getDeclaredConstructor(Class... parameterTypes):获取"某个构造方法"可以是私有的，或受保护、默认、公有；
+
+     调用构造方法：
+   Constructor-->newInstance(Object... initargs)
+
+   2、newInstance是 Constructor类的方法（管理构造函数的类）
+   api的解释为：
+   newInstance(Object... initargs)
+              使用此 Constructor 对象表示的构造方法来创建该构造方法的声明类的新实例，并用指定的初始化参数初始化该实例。
+   它的返回值是T类型，所以newInstance是创建了一个构造方法的声明类的新实例对象。并为之调用
+3、获取成员变量并调用
+4、获取成员方法并调用
+5、反射main方法
+6、反射方法的其它使用之---通过反射运行配置文件内容

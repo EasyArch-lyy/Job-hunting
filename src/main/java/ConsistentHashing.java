@@ -1,4 +1,8 @@
 import java.util.*;
+/**
+ * 一致性hash
+ * @author lyy
+ */
 
 public class ConsistentHashing {
     // 物理节点
