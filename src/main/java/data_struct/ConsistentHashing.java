@@ -1,3 +1,5 @@
+package data_struct;
+
 import java.util.*;
 /**
  * 一致性hash
