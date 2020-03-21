@@ -1,0 +1,20 @@
+[GC (System.gc()) [PSYoungGen: 6676K->4544K(74752K)] 6676K->4552K(245760K), 0.0036111 secs] [Times: user=0.00 sys=0.00, real=0.01 secs]
+[Full GC (System.gc()) [PSYoungGen: 4544K->0K(74752K)] [ParOldGen: 8K->4479K(171008K)] 4552K->4479K(245760K), [Metaspace: 3275K->3275K(1056768K)], 0.0107134 secs] [Times: user=0.02 sys=0.00, real=0.01 secs]
+Heap
+ PSYoungGen      total 74752K, used 645K [0x000000076d100000, 0x0000000772400000, 0x00000007c0000000)
+  eden space 64512K, 1% used [0x000000076d100000,0x000000076d1a15f0,0x0000000771000000)
+  from space 10240K, 0% used [0x0000000771000000,0x0000000771000000,0x0000000771a00000)
+  to   space 10240K, 0% used [0x0000000771a00000,0x0000000771a00000,0x0000000772400000)
+ ParOldGen       total 171008K, used 4479K [0x00000006c7200000, 0x00000006d1900000, 0x000000076d100000)
+  object space 171008K, 2% used [0x00000006c7200000,0x00000006c765ff20,0x00000006d1900000)
+ Metaspace       used 3282K, capacity 4496K, committed 4864K, reserved 1056768K
+  class space    used 362K, capacity 388K, committed 512K, reserved 1048576K
+
+
+GC开头的说明此次垃圾回收为Minor GC，而Full GC开头的说明此次垃圾回收为stop-the-world的类型
+PSYoungGen表示年轻代，ParOldGen表示老年代
+方括号内的"9351K->760K(76288K)“表示"GC前该内存区域已使用容量->GC后该内存区域已使用容量（该内存区域总容量）”
+方括号外的"9351K->768K(251392K)“表示"GC前Java堆已使用容量->GC后Java堆已使用容量（Java堆总容量）”
+“0.0009304 secs"表示该内存区域本次GC所占用的时间，单位是秒。有的收集器会给出更具体的时间数据，如”[Time:user=0.01 sys=0.01 real=0.02 secs]"，这里的user、sys、real与Linux的time命令所输出的时间含义一致，分别代表用户态消耗的CPU时间、内核态消耗的CPU时间、操作从开始到结束所经过的墙钟时间。CPU时间和墙钟时间的区别是，墙钟时间包括各种非运算的等待耗时，如等待磁盘I/O、等待线程阻塞，而CPU时间不包括这些耗时，但当系统有多CPU或者多核的话，多线程操作会叠加这些CPU时间，所以若看到user或sys时间超过real时间也是完全正常的。
+eden、from、to表示年轻代中各区域的划分
+Metaspace表示元空间的大小，这里用的是JDK1.8，如果是JDK1.7则没有该区域
