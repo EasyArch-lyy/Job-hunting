@@ -5,20 +5,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8cc95f-82e6-4017-8e58-606e0be24d36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/DateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Solution5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/sort/Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/regular/Fun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/regular/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/regular/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/regular/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/asm_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/asm-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cglib-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/demo/MyTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/demo/MyTargetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/test7/PkgAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/test7/Test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/test7/package_info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/junit/MyJunit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/BufferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/CharsetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/CharsetTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/FileChannelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/FileLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/NoHeapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/PipeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/RandomFileChannelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/scatter/GatherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/scatter/ScatterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/socket/NClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/socket/NServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/udp/NioUDPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/udp/NioUDPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/encoder/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/encoder/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/CMSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/Finalize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/FinalizeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/DirectMemoryOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/FinalizeEscapeGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/OutOfMataSpaceErrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/TwoNumsSumEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码索引" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Exam1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/exam/Exam1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Iter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/exam/Iter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/exam/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gcTest/MonitorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/MonitorInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gcTest/MonitorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/MonitorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gcTest/ReferenceCountingGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/ReferenceCountingGC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gcTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gcTest/log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/ConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/ConditionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/CountDownLatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/CyclicBarrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/MyBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/MyBlockingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/ReentrantLockTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/ReentrantLockTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/ReentrantLockTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/ReentrantLockTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/ReentrantLockTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/ReentrantLockTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/ReentrantLockTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/ReentrantLockTest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/sync/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/sync/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/sync/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/sync/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/sync/Thread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/sync/Thread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/sync/Thread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/sync/Thread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/sync/Thread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/sync/Thread3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exam/Exam1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exam/Iter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exam/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/MonitorInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/MonitorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/ReferenceCountingGC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/Test$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/ConditionTest$SignalThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/ConditionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/CountDownLatchTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/CountDownLatchTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/CountDownLatchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/CyclicBarrierTest$Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/CyclicBarrierTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/MyBlockingQueue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/MyBlockingQueue$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/MyBlockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest2$ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest3$ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest4$ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/Test$Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Thread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Thread2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Thread2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Thread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Thread3.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +138,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iotest" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/java/reflex/readPreperties" />
       <recent name="$PROJECT_DIR$/src/main/java/Design_pattern" />
       <recent name="$PROJECT_DIR$/src/main/java/Responsibility_chain" />
@@ -66,16 +157,17 @@
       <recent name="regular" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src/main/java/reflex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution5">
-    <configuration name="MonitorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gcTest.MonitorService" />
+  <component name="RunManager" selected="Application.OutOfMataSpaceErrorTest">
+    <configuration name="CMSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.gcTest.CMSTest" />
       <module name="Job-hunting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gcTest.*" />
+          <option name="PATTERN" value="jvm.gcTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.ReentrantLockTest4" />
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.memory.DeadLock" />
       <module name="Job-hunting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lock.*" />
+          <option name="PATTERN" value="jvm.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regular.Solution" />
+    <configuration name="DirectMemoryOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.memory.DirectMemoryOOM" />
       <module name="Job-hunting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="regular.*" />
+          <option name="PATTERN" value="jvm.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Solution5" />
+    <configuration name="FinalizeEscapeGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.memory.FinalizeEscapeGC" />
       <module name="Job-hunting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="jvm.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +214,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Test4" />
+    <configuration name="OutOfMataSpaceErrorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.memory.OutOfMataSpaceErrorTest" />
       <module name="Job-hunting" />
+      <option name="VM_PARAMETERS" value="-XX:MaxMetaspaceSize=100m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="jvm.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,19 +276,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.ReentrantLockTest4" />
-      <item itemvalue="Application.MonitorService" />
-      <item itemvalue="Application.Test4" />
-      <item itemvalue="Application.Solution5" />
+      <item itemvalue="Application.CMSTest" />
+      <item itemvalue="Application.DeadLock" />
+      <item itemvalue="Application.DirectMemoryOOM" />
+      <item itemvalue="Application.FinalizeEscapeGC" />
+      <item itemvalue="Application.OutOfMataSpaceErrorTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution5" />
-        <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.MonitorService" />
-        <item itemvalue="Application.ReentrantLockTest4" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.OutOfMataSpaceErrorTest" />
+        <item itemvalue="Application.FinalizeEscapeGC" />
+        <item itemvalue="Application.DirectMemoryOOM" />
+        <item itemvalue="Application.DeadLock" />
+        <item itemvalue="Application.CMSTest" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +340,11 @@
       <workItem from="1585894105814" duration="182000" />
       <workItem from="1585921930242" duration="2258000" />
       <workItem from="1585967752323" duration="5608000" />
+      <workItem from="1586056514976" duration="1881000" />
+      <workItem from="1586061716637" duration="5635000" />
+      <workItem from="1586092337966" duration="2917000" />
+      <workItem from="1586134697296" duration="20987000" />
+      <workItem from="1586222493858" duration="8130000" />
     </task>
     <servers />
   </component>
@@ -265,26 +363,26 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="508" y="200" key="#Project_Structure/0.24.1920.1056@0.24.1920.1056" timestamp="1584027028251" />
-    <state x="645" y="287" width="1082" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584928544479">
+    <state x="249" y="319" width="1082" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586230682730">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="645" y="287" width="1082" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1584928544479" />
-    <state x="558" y="338" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584168682505">
+    <state x="249" y="319" width="1082" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1586230682730" />
+    <state x="558" y="338" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586091724325">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="558" y="338" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1584168682505" />
+    <state x="558" y="338" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1586091724325" />
     <state x="240" y="319" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584753013608">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="240" y="319" key="#com.intellij.ide.macro.MacrosDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1584753013608" />
-    <state x="771" y="247" width="396" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1585975610171">
+    <state x="771" y="247" width="396" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1586176307126">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="771" y="247" width="396" height="581" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1585975610171" />
-    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583299165571">
+    <state x="771" y="247" width="396" height="581" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1586176307126" />
+    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586143312315">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1583299165570" />
+    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1586143312315" />
     <state x="698" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585970807535">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -293,30 +391,38 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="698" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1583848595476" />
+    <state x="1147" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586143275374">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="1147" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.24.1920.1056@0.24.1920.1056" timestamp="1586143275374" />
     <state x="539" y="130" key="CommitChangelistDialog2" timestamp="1584172551628">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="539" y="130" key="CommitChangelistDialog2/0.24.1920.1056@0.24.1920.1056" timestamp="1584172551628" />
-    <state x="688" y="297" key="FileChooserDialogImpl" timestamp="1585665830399">
+    <state x="883" y="411" key="ErrorWindow" timestamp="1586227447520">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="688" y="297" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1585665830399" />
-    <state width="1868" height="171" key="GridCell.Tab.0.bottom" timestamp="1585982145467">
+    <state x="883" y="411" key="ErrorWindow/0.24.1920.1056@0.24.1920.1056" timestamp="1586227447520" />
+    <state x="688" y="297" key="FileChooserDialogImpl" timestamp="1586078761453">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="171" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1585982145467" />
-    <state width="1868" height="171" key="GridCell.Tab.0.center" timestamp="1585982145463">
+    <state x="688" y="297" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1586078761453" />
+    <state width="907" height="325" key="GridCell.Tab.0.bottom" timestamp="1586230685935">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="171" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1585982145463" />
-    <state width="1868" height="171" key="GridCell.Tab.0.left" timestamp="1585982145459">
+    <state width="907" height="325" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1586230685935" />
+    <state width="907" height="325" key="GridCell.Tab.0.center" timestamp="1586230685935">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="171" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1585982145459" />
-    <state width="1868" height="171" key="GridCell.Tab.0.right" timestamp="1585982145465">
+    <state width="907" height="325" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1586230685935" />
+    <state width="907" height="325" key="GridCell.Tab.0.left" timestamp="1586230685934">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="171" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1585982145465" />
+    <state width="907" height="325" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1586230685934" />
+    <state width="907" height="325" key="GridCell.Tab.0.right" timestamp="1586230685935">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="907" height="325" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1586230685935" />
     <state width="1868" height="25" key="GridCell.Tab.1.bottom" timestamp="1585668892179">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -349,6 +455,14 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state width="1868" height="297" key="GridCell.Tab.2.right/0.24.1920.1056@0.24.1920.1056" timestamp="1585645645819" />
+    <state x="736" y="241" key="SettingsEditor" timestamp="1586230652474">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="736" y="241" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1586230652474" />
+    <state x="465" y="400" key="SignInWindow" timestamp="1586227448471">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="465" y="400" key="SignInWindow/0.24.1920.1056@0.24.1920.1056" timestamp="1586227448471" />
     <state x="765" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584172486799">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
