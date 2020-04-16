@@ -2,6 +2,11 @@ package Design_pattern.Responsibility_chain;
 
 import java.util.Date;
 
+/**
+ * 责任链模式
+ *
+ * @author lyy
+ */
 public class Client {
     public static void main(String[] args) {
         //构造告警事件

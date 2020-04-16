@@ -1,6 +1,9 @@
-package com.jinxiu.netty.Decorator;
+package Design_pattern.Decorator;
 
-public class ConcreteDecorator1 extends Decorator{
+/**
+ * @author lyy
+ */
+public class ConcreteDecorator1 extends Decorator {
 
     public ConcreteDecorator1(Component component) {
         super(component);

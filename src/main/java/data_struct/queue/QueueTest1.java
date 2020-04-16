@@ -23,19 +23,20 @@ public class QueueTest1 {
     }  
 }  
 
-//使用数组定义一个队列
-class Queue {  
+
+/**
+ * 使用数组定义一个队列
+ */
+class Queue {
 
     int[] a = new int[5];
-    //数组下标
+    /**数组下标*/
     int i = 1;
-
-    //入队
+    /**入队*/
     public void in(int m){  
        a[i++] = m;
     } 
-
-    //出队
+    /**出队*/
     public int out(){  
        int index = 0;  
        int temp = a[1];  

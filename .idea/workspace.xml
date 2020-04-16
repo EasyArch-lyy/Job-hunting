@@ -5,109 +5,162 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8cc95f-82e6-4017-8e58-606e0be24d36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/asm_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/asm-7.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cglib-3.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Column.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/demo/MyTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/demo/MyTargetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/test7/PkgAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/test7/Test7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotation/test7/package_info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/junit/MyJunit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/BufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/CharsetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/CharsetTransform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/FileChannelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/FileLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/NoHeapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/PipeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/RandomFileChannelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/scatter/GatherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/scatter/ScatterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/socket/NClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/socket/NServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/udp/NioUDPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/udp/NioUDPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/encoder/Binary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/encoder/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/CMSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/Finalize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/FinalizeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/DeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/DirectMemoryOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/FinalizeEscapeGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/OutOfMataSpaceErrorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/TwoNumsSumEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码索引" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/ThreadTest/Atomic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/ThreadTest/VectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/ThreadTest/VectorTestImprove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/ThreadTest/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/abstractTest/AbstractDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/abstractTest/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/abstractTest/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/generic/ErrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/generic/GenericClazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/generic/GenericIntegerface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/generic/JustProve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/generic/impl/GenericIntegerfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/new1_8/Java8Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/new1_8/Java8Tester2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/new1_8/Java8Tester3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/GCTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/GCTargetWeakReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/MyThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/WeakReferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/proxy/DynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/proxy/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/proxy/SubjectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/staticproxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/staticproxy/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/staticproxy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/regex/RegexExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/regex/RegexMatcheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/regex/RegexMatches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/regex/正则表达式" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/SimpleSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/ThreadServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/TwoWayClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/TwoWayServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/source/jdk/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/email/SendEamil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/email/SendEmailUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Exam1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/exam/Exam1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Iter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/exam/Iter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/exam/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gcTest/MonitorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/MonitorInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gcTest/MonitorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/MonitorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gcTest/ReferenceCountingGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/ReferenceCountingGC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gcTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gcTest/log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/gcTest/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/ConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/ConditionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/CountDownLatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/CyclicBarrierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/MyBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/MyBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/ReentrantLockTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/ReentrantLockTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/ReentrantLockTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/ReentrantLockTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/ReentrantLockTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/ReentrantLockTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/ReentrantLockTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/ReentrantLockTest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/sync/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/sync/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/sync/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/sync/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/sync/Thread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/sync/Thread1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/sync/Thread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/sync/Thread2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lock/sync/Thread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/lock/sync/Thread3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exam/Exam1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exam/Iter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exam/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/MonitorInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/MonitorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/ReferenceCountingGC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/Test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/Test$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gcTest/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/ConditionTest$SignalThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/ConditionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/CountDownLatchTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/CountDownLatchTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/CountDownLatchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/CyclicBarrierTest$Writer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/CyclicBarrierTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/MyBlockingQueue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/MyBlockingQueue$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/MyBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest2$ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest3$ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest4$ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/ReentrantLockTest4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/Test$Writer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Thread2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Thread2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lock/sync/Thread3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteComonent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteComonent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteDecorator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteDecorator1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteDecorator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteDecorator2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Decorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/FilterChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/FilterChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Rule1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Rule1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Rule2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Rule2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/WechatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/WechatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/ConsistentHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/ConsistentHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/FastSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/FastSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/ShellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/ShellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/queue/QueueTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/queue/QueueTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/stack/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/tree/AVLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/tree/AVLtree/AVLNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/tree/MyAVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/tree/AVLtree/MyAVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/encoder/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regular/Binary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/encoder/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regular/Convert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jvm/memory/OutOfMataSpaceErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/OutOfMataSpaceErrorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/dynamicProxy/MonitorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/dynamicProxy/MonitorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/dynamicProxy/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/dynamicProxy/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/dynamicProxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/dynamicProxy/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/dynamicProxy/StuInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/dynamicProxy/StuInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/dynamicProxy/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/dynamicProxy/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/staticProxy/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/staticProxy/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/staticProxy/StaticProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/staticProxy/StaticProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/staticProxy/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/staticProxy/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/staticProxy/StudentProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/staticProxy/StudentProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/代理" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/代理" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/Constructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/Constructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/Fields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/ReflexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/ReflexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/generic/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/generic/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/method/MethodClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/method/MethodClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/method/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/method/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/readPreperties/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/readPreperties/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/readPreperties/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/readPreperties/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/readPreperties/pro" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/readPreperties/pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/反射" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/反射" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/反射过程.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/反射过程.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码索引" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码索引" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/FilterChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/FilterChain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Rule1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Rule1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Rule2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Rule2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Design_pattern/observerMode/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Design_pattern/observerMode/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/Component.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/ConcreteComonent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/ConcreteDecorator1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/ConcreteDecorator2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/Decorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/ConsistentHashing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data_struct/ConsistentHashing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/FastSortTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/ShellTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/queue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data_struct/queue/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/stack/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data_struct/stack/ArrayStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/tree/AVLNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/tree/MyAVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/tree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data_struct/tree/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/encoder/Binary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/encoder/Convert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jvm/memory/OutOfMataSpaceErrorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/memory/OutOfMataSpaceErrorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proxy/dynamicProxy/MonitorUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proxy/dynamicProxy/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proxy/dynamicProxy/ProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proxy/dynamicProxy/StuInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proxy/dynamicProxy/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proxy/staticProxy/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proxy/staticProxy/StaticProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proxy/staticProxy/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proxy/staticProxy/StudentProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflex/Constructors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflex/Fields.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflex/ReflexTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflex/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflex/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflex/generic/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflex/method/MethodClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflex/method/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflex/readPreperties/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflex/readPreperties/Student.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +191,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/reflex" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -153,21 +206,27 @@
       <recent name="$PROJECT_DIR$/src/main/java/Responsibility_chain" />
       <recent name="$PROJECT_DIR$/笔记包" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="regular" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src/main/java/reflex" />
+      <recent name="$PROJECT_DIR$/src/main/java/reflex/proxy" />
+      <recent name="$PROJECT_DIR$/target/classes/basics/classload" />
+      <recent name="$PROJECT_DIR$/src/main/java/basics/classload" />
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OutOfMataSpaceErrorTest">
-    <configuration name="CMSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.gcTest.CMSTest" />
+  <component name="RunManager" selected="Application.JustProve">
+    <configuration name="ErrorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.generic.ErrorTest" />
       <module name="Job-hunting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.gcTest.*" />
+          <option name="PATTERN" value="basics.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.memory.DeadLock" />
+    <configuration name="GenericClazz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.generic.GenericClazz" />
       <module name="Job-hunting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.memory.*" />
+          <option name="PATTERN" value="basics.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectMemoryOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.memory.DirectMemoryOOM" />
+    <configuration name="JustProve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.generic.JustProve" />
       <module name="Job-hunting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.memory.*" />
+          <option name="PATTERN" value="basics.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalizeEscapeGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.memory.FinalizeEscapeGC" />
+    <configuration name="TwoWayClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.socket.TwoWayClient" />
       <module name="Job-hunting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.memory.*" />
+          <option name="PATTERN" value="basics.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,13 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutOfMataSpaceErrorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.memory.OutOfMataSpaceErrorTest" />
+    <configuration name="TwoWayServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.socket.TwoWayServer" />
       <module name="Job-hunting" />
-      <option name="VM_PARAMETERS" value="-XX:MaxMetaspaceSize=100m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.memory.*" />
+          <option name="PATTERN" value="basics.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,19 +334,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CMSTest" />
-      <item itemvalue="Application.DeadLock" />
-      <item itemvalue="Application.DirectMemoryOOM" />
-      <item itemvalue="Application.FinalizeEscapeGC" />
-      <item itemvalue="Application.OutOfMataSpaceErrorTest" />
+      <item itemvalue="Application.TwoWayServer" />
+      <item itemvalue="Application.TwoWayClient" />
+      <item itemvalue="Application.GenericClazz" />
+      <item itemvalue="Application.ErrorTest" />
+      <item itemvalue="Application.JustProve" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OutOfMataSpaceErrorTest" />
-        <item itemvalue="Application.FinalizeEscapeGC" />
-        <item itemvalue="Application.DirectMemoryOOM" />
-        <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.CMSTest" />
+        <item itemvalue="Application.JustProve" />
+        <item itemvalue="Application.ErrorTest" />
+        <item itemvalue="Application.GenericClazz" />
+        <item itemvalue="Application.TwoWayClient" />
+        <item itemvalue="Application.TwoWayServer" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +402,13 @@
       <workItem from="1586061716637" duration="5635000" />
       <workItem from="1586092337966" duration="2917000" />
       <workItem from="1586134697296" duration="20987000" />
-      <workItem from="1586222493858" duration="8130000" />
+      <workItem from="1586222493858" duration="14623000" />
+      <workItem from="1586247273889" duration="2494000" />
+      <workItem from="1586251283719" duration="601000" />
+      <workItem from="1586327461692" duration="6632000" />
+      <workItem from="1586393712849" duration="16550000" />
+      <workItem from="1586996826091" duration="15000" />
+      <workItem from="1586996865131" duration="4149000" />
     </task>
     <servers />
   </component>
@@ -355,6 +419,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="995" y="214" key="#Inspections" timestamp="1586998734809">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="995" y="214" key="#Inspections/0.24.1920.1056@0.24.1920.1056" timestamp="1586998734809" />
     <state x="645" y="214" width="800" height="738" key="#Intentions" timestamp="1584171966621">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -367,22 +435,26 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="249" y="319" width="1082" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1586230682730" />
-    <state x="558" y="338" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586091724325">
+    <state x="558" y="338" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586401221325">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="558" y="338" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1586091724325" />
+    <state x="558" y="338" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1586401221325" />
     <state x="240" y="319" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584753013608">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="240" y="319" key="#com.intellij.ide.macro.MacrosDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1584753013608" />
-    <state x="771" y="247" width="396" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1586176307126">
+    <state x="771" y="247" width="396" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1587002071864">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="771" y="247" width="396" height="581" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1586176307126" />
-    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586143312315">
+    <state x="771" y="247" width="396" height="581" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1587002071864" />
+    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586398952518">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1586143312315" />
+    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1586398952518" />
+    <state x="663" y="411" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1586398953995">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="663" y="411" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.24.1920.1056@0.24.1920.1056" timestamp="1586398953995" />
     <state x="698" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585970807535">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -403,42 +475,42 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="883" y="411" key="ErrorWindow/0.24.1920.1056@0.24.1920.1056" timestamp="1586227447520" />
-    <state x="688" y="297" key="FileChooserDialogImpl" timestamp="1586078761453">
+    <state x="688" y="297" key="FileChooserDialogImpl" timestamp="1586247260890">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="688" y="297" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1586078761453" />
-    <state width="907" height="325" key="GridCell.Tab.0.bottom" timestamp="1586230685935">
+    <state x="688" y="297" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1586247260890" />
+    <state width="1079" height="297" key="GridCell.Tab.0.bottom" timestamp="1587002014166">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="907" height="325" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1586230685935" />
-    <state width="907" height="325" key="GridCell.Tab.0.center" timestamp="1586230685935">
+    <state width="1079" height="297" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1587002014166" />
+    <state width="1079" height="297" key="GridCell.Tab.0.center" timestamp="1587002014165">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="907" height="325" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1586230685935" />
-    <state width="907" height="325" key="GridCell.Tab.0.left" timestamp="1586230685934">
+    <state width="1079" height="297" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1587002014165" />
+    <state width="1079" height="297" key="GridCell.Tab.0.left" timestamp="1587002014164">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="907" height="325" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1586230685934" />
-    <state width="907" height="325" key="GridCell.Tab.0.right" timestamp="1586230685935">
+    <state width="1079" height="297" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1587002014164" />
+    <state width="1079" height="297" key="GridCell.Tab.0.right" timestamp="1587002014165">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="907" height="325" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1586230685935" />
-    <state width="1868" height="25" key="GridCell.Tab.1.bottom" timestamp="1585668892179">
+    <state width="1079" height="297" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1587002014165" />
+    <state width="908" height="302" key="GridCell.Tab.1.bottom" timestamp="1586247262122">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="25" key="GridCell.Tab.1.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1585668892179" />
-    <state width="1868" height="25" key="GridCell.Tab.1.center" timestamp="1585668892177">
+    <state width="908" height="302" key="GridCell.Tab.1.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1586247262122" />
+    <state width="908" height="302" key="GridCell.Tab.1.center" timestamp="1586247262122">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="25" key="GridCell.Tab.1.center/0.24.1920.1056@0.24.1920.1056" timestamp="1585668892177" />
-    <state width="1868" height="25" key="GridCell.Tab.1.left" timestamp="1585668892175">
+    <state width="908" height="302" key="GridCell.Tab.1.center/0.24.1920.1056@0.24.1920.1056" timestamp="1586247262122" />
+    <state width="908" height="302" key="GridCell.Tab.1.left" timestamp="1586247262122">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="25" key="GridCell.Tab.1.left/0.24.1920.1056@0.24.1920.1056" timestamp="1585668892175" />
-    <state width="1868" height="25" key="GridCell.Tab.1.right" timestamp="1585668892178">
+    <state width="908" height="302" key="GridCell.Tab.1.left/0.24.1920.1056@0.24.1920.1056" timestamp="1586247262122" />
+    <state width="908" height="302" key="GridCell.Tab.1.right" timestamp="1586247262122">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="25" key="GridCell.Tab.1.right/0.24.1920.1056@0.24.1920.1056" timestamp="1585668892178" />
+    <state width="908" height="302" key="GridCell.Tab.1.right/0.24.1920.1056@0.24.1920.1056" timestamp="1586247262122" />
     <state width="1868" height="297" key="GridCell.Tab.2.bottom" timestamp="1585645645820">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -455,6 +527,10 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state width="1868" height="297" key="GridCell.Tab.2.right/0.24.1920.1056@0.24.1920.1056" timestamp="1585645645819" />
+    <state x="498" y="195" key="Maven.ArtifactSearchDialog" timestamp="1586413683647">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="498" y="195" key="Maven.ArtifactSearchDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1586413683647" />
     <state x="736" y="241" key="SettingsEditor" timestamp="1586230652474">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -475,13 +551,13 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="619" y="261" width="968" height="678" key="find.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1584757049927" />
-    <state x="33" y="155" key="new project wizard" timestamp="1584027168552">
+    <state x="33" y="155" key="new project wizard" timestamp="1586438585071">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="33" y="155" key="new project wizard/0.24.1920.1056@0.24.1920.1056" timestamp="1584027168552" />
-    <state x="623" y="246" key="run.anything.popup" timestamp="1584588429088">
+    <state x="33" y="155" key="new project wizard/0.24.1920.1056@0.24.1920.1056" timestamp="1586438585071" />
+    <state x="623" y="246" key="run.anything.popup" timestamp="1587001872570">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="623" y="246" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1584588429088" />
+    <state x="623" y="246" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1587001872570" />
   </component>
 </project>

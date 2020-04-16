@@ -1,5 +1,8 @@
-package com.jinxiu.netty.Decorator;
+package Design_pattern.Decorator;
 
+/**
+ * @author lyy
+ */
 public class ConcreteComonent implements Component{
     @Override
     public void doSomething() {

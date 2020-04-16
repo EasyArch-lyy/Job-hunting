@@ -1,5 +1,10 @@
 package Design_pattern.observerMode;
 
+/**
+ * 观察者模式
+ *
+ * @author lyy
+ */
 public class Test {
     
     public static void main(String[] args) {

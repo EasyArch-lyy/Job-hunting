@@ -1,7 +1,11 @@
 package Design_pattern.Responsibility_chain;
 
 
-//新增两个规则，处理告警的逻辑单元
+/**
+ * 新增两个规则，处理告警的逻辑单元
+ *
+ * @author lyy
+ */
 public class Rule1 implements Filter {
 
     @Override

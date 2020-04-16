@@ -2,9 +2,13 @@ package data_struct.stack;
 
 import java.lang.reflect.Array;
 
+/**
+ * 栈练习
+ * @author lyy
+ */
 public class ArrayStack<T> {
 
-	//栈的默认大小
+	/**栈的默认大小*/
 	private final static int DEFAULT_SIZE = 10;
 	/**栈的数组结构*/
 	private T[] mArray;

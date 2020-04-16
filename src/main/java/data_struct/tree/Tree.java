@@ -2,25 +2,30 @@ package data_struct.tree;
 
 /**
  * 二叉树
- * @author phoebe
+ * @author lyy
  */
 public class Tree {
-    public Integer data;//每一个节点的值
-    public static Tree root;//根节点(有且仅有一个)
-    public Tree father;//父节点
-    public Tree leftSon;//左子节点
-    public Tree rightSon;//右子节点
+
+    /**每一个节点的值*/
+    public Integer data;
+    /**根节点(有且仅有一个)*/
+    public static Tree root;
+    /**父节点*/
+    public Tree father;
+    /**左子节点*/
+    public Tree leftSon;
+    /**右子节点*/
+    public Tree rightSon;
     
-    //左树是否为空
+    /**左树是否为空*/
     public boolean hasLeftSon(){
         return leftSon!=null;
     }
-    //右树是否为空
+    /**右树是否为空*/
     public boolean hasRightSon(){
         return rightSon!=null;
     }
-    
-    //插入节点
+    /**插入节点*/
     public void insert(Integer data,Tree father){
         /**
          * 思想：先让data和root中的值进行比较，大于0插入右边，小于0插入左边，计划使用递归思想
@@ -33,9 +38,12 @@ public class Tree {
         if(data.compareTo(father.data)>0){
             //父节点没有右节点
             if(!father.hasRightSon()){
-                father.rightSon = new Tree();//生成一个右节点
-                father.rightSon.data=data;//给右节点赋值
-                father.rightSon.father=father;//指定右节点的父亲是谁
+                //生成一个右节点
+                father.rightSon = new Tree();
+                //给右节点赋值
+                father.rightSon.data=data;
+                //指定右节点的父亲是谁
+                father.rightSon.father=father;
             }else{
                 insert(data,father.rightSon);
             }
@@ -45,9 +53,12 @@ public class Tree {
         if(data.compareTo(father.data)<0){
             //父节点没有左节点
             if(!father.hasLeftSon()){
-                father.leftSon = new Tree();//生成一个右节点
-                father.leftSon.data=data;//给右节点赋值
-                father.leftSon.father=father;//指定右节点的父亲是谁
+                //生成一个右节点
+                father.leftSon = new Tree();
+                //给右节点赋值
+                father.leftSon.data=data;
+                //指定右节点的父亲是谁
+                father.leftSon.father=father;
             }else{
                 insert(data,father.leftSon);
             }
@@ -69,6 +80,4 @@ public class Tree {
             insert(data,root);
         }
     }
-    
-    
 }

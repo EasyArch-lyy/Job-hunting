@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class WechatServer implements Observerable {
     
-    //注意到这个List集合的泛型参数为Observer接口，设计原则：面向接口编程而不是面向实现编程
+    /**注意到这个List集合的泛型参数为Observer接口，设计原则：面向接口编程而不是面向实现编程*/
     private List<java.util.Observer> list;
     private String message;
     
@@ -31,7 +31,7 @@ public class WechatServer implements Observerable {
         }
     }
 
-    //遍历
+    /**遍历*/
     @Override
     public void notifyObserver() {
         for(int i = 0; i < list.size(); i++) {

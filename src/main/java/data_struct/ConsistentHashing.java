@@ -18,8 +18,10 @@ public class ConsistentHashing {
     };
 
     //虚拟节点
-    private final int VIRTUAL_COPIES = 1000000; // 物理节点至虚拟节点的复制倍数
-    private TreeMap<Long, String> virtualNodes = new TreeMap<Long, String>(); // 哈希值 => 物理节点
+    /**物理节点至虚拟节点的复制倍数*/
+    private final int VIRTUAL_COPIES = 1000000;
+    /**哈希值 => 物理节点*/
+    private TreeMap<Long, String> virtualNodes = new TreeMap<Long, String>();
 
     // 32位的 Fowler-Noll-Vo 哈希算法
     // https://en.wikipedia.org/wiki/Fowler–Noll–Vo_hash_function
@@ -41,14 +43,14 @@ public class ConsistentHashing {
         return hash;
     }
 
-    // 根据物理节点，构建虚拟节点映射表
+    /**根据物理节点，构建虚拟节点映射表*/
     public ConsistentHashing() {
         for (String nodeIp : physicalNodes) {
             addPhysicalNode(nodeIp);
         }
     }
 
-    // 添加物理节点
+    /**添加物理节点*/
     public void addPhysicalNode(String nodeIp) {
         for (int idx = 0; idx < VIRTUAL_COPIES; ++idx) {
             long hash = FNVHash(nodeIp + "#" + idx);
@@ -56,7 +58,7 @@ public class ConsistentHashing {
         }
     }
 
-    // 删除物理节点
+    /**删除物理节点*/
     public void removePhysicalNode(String nodeIp) {
         for (int idx = 0; idx < VIRTUAL_COPIES; ++idx) {
             long hash = FNVHash(nodeIp + "#" + idx);
@@ -64,25 +66,26 @@ public class ConsistentHashing {
         }
     }
 
-    // 查找对象映射的节点
+    /**查找对象映射的节点*/
     public String getObjectNode(String object) {
         long hash = FNVHash(object);
-        SortedMap<Long, String> tailMap = virtualNodes.tailMap(hash); // 所有大于 hash 的节点
+//        所有大于 hash 的节点
+        SortedMap<Long, String> tailMap = virtualNodes.tailMap(hash);
         Long key = tailMap.isEmpty() ? virtualNodes.firstKey() : tailMap.firstKey();
         return virtualNodes.get(key);
     }
 
-    // 统计对象与节点的映射关系
+    /**统计对象与节点的映射关系*/
     public void dumpObjectNodeMap(String label, int objectMin, int objectMax) {
-        // 统计
-        Map<String, Integer> objectNodeMap = new TreeMap<String, Integer>(); // IP => COUNT
+        // 统计 IP => COUN
+        Map<String, Integer> objectNodeMap = new TreeMap<String, Integer>();
         for (int object = objectMin; object <= objectMax; ++object) {
             String nodeIp = getObjectNode(Integer.toString(object));
             Integer count = objectNodeMap.get(nodeIp);
             objectNodeMap.put(nodeIp, (count == null ? 0 : count + 1));
         }
 
-        // 打印
+        // 打印p
         double totalCount = objectMax - objectMin + 1;
         System.out.println("======== " + label + " ========");
         for (Map.Entry<String, Integer> entry : objectNodeMap.entrySet()) {

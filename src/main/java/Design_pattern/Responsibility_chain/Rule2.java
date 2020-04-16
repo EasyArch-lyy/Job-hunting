@@ -1,5 +1,8 @@
 package Design_pattern.Responsibility_chain;
 
+/**
+ * @author lyy
+ */
 public class Rule2 implements Filter {
     @Override
     public void execute(Alarm alarm, FilterChain chain) {
