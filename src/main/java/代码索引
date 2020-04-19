@@ -1,6 +1,8 @@
 basics     --java基础
   abstorctTest    --抽象类
   annotation      --注解demo
+  new1_8          --1.8新特性
+    lambda        --lambda表达式练习
     Test1  --划线注解
     Test2  --忽略编译器警告
     Test3  --注解的保留策略作用目标

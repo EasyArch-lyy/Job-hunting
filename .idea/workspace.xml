@@ -5,162 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8cc95f-82e6-4017-8e58-606e0be24d36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/ThreadTest/Atomic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/ThreadTest/VectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/ThreadTest/VectorTestImprove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/ThreadTest/VolatileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/abstractTest/AbstractDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/abstractTest/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/abstractTest/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/classload/MyTest9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/generic/ErrorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/generic/GenericClazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/generic/GenericIntegerface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/generic/JustProve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/generic/impl/GenericIntegerfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/new1_8/Java8Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/new1_8/Java8Tester2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/new1_8/Java8Tester3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/GCTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/GCTargetWeakReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/MyThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reference/WeakReferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/proxy/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/proxy/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/proxy/SubjectImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/staticproxy/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/staticproxy/StaticProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/test/staticproxy/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/regex/RegexExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/regex/RegexMatcheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/regex/RegexMatches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/regex/正则表达式" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/SimpleSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/ThreadServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/TwoWayClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/socket/TwoWayServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/source/jdk/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/email/SendEamil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/email/SendEmailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/new1_8/stream/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteComonent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteComonent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteDecorator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteDecorator1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteDecorator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/ConcreteDecorator2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Decorator/Decorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/FilterChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/FilterChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Rule1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Rule1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Rule2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/Responsibility_chain/Rule2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/WechatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Design_pattern/observerMode/WechatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/ConsistentHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/ConsistentHashing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/FastSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/FastSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/ShellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/sort/ShellTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/queue/QueueTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/queue/QueueTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/tree/AVLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/tree/AVLtree/AVLNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/tree/MyAVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/tree/AVLtree/MyAVLTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_struct/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_struct/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/encoder/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regular/Binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/encoder/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regular/Convert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jvm/memory/OutOfMataSpaceErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/memory/OutOfMataSpaceErrorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/dynamicProxy/MonitorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/dynamicProxy/MonitorUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/dynamicProxy/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/dynamicProxy/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/dynamicProxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/dynamicProxy/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/dynamicProxy/StuInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/dynamicProxy/StuInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/dynamicProxy/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/dynamicProxy/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/staticProxy/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/staticProxy/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/staticProxy/StaticProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/staticProxy/StaticProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/staticProxy/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/staticProxy/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/staticProxy/StudentProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/staticProxy/StudentProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/代理" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/proxy/代理" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/Constructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/Constructors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/Fields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/ReflexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/ReflexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/generic/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/generic/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/method/MethodClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/method/MethodClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/method/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/method/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/readPreperties/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/readPreperties/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/readPreperties/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/readPreperties/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/readPreperties/pro" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/readPreperties/pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/反射" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/反射" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflex/反射过程.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflex/反射过程.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/new1_8/Java8Tester2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/new1_8/lambda/Java8Tester2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/new1_8/Java8Tester3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/new1_8/Java8Tester3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/代码索引" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码索引" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/FilterChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/FilterChain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Rule1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Rule1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Rule2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Design_pattern/Responsibility_chain/Rule2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Design_pattern/observerMode/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Design_pattern/observerMode/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/Component.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/ConcreteComonent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/ConcreteDecorator1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/ConcreteDecorator2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinxiu/netty/Decorator/Decorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/ConsistentHashing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data_struct/ConsistentHashing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/FastSortTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/ShellTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/queue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data_struct/queue/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/stack/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data_struct/stack/ArrayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/tree/AVLNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/tree/MyAVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data_struct/tree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data_struct/tree/Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/encoder/Binary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/encoder/Convert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/memory/OutOfMataSpaceErrorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/memory/OutOfMataSpaceErrorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/dynamicProxy/MonitorUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/dynamicProxy/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/dynamicProxy/ProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/dynamicProxy/StuInvocationHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/dynamicProxy/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/staticProxy/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/staticProxy/StaticProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/staticProxy/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/staticProxy/StudentProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflex/Constructors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflex/Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflex/ReflexTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflex/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflex/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflex/generic/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflex/method/MethodClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflex/method/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflex/readPreperties/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflex/readPreperties/Student.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,7 +257,9 @@
       <workItem from="1586327461692" duration="6632000" />
       <workItem from="1586393712849" duration="16550000" />
       <workItem from="1586996826091" duration="15000" />
-      <workItem from="1586996865131" duration="4149000" />
+      <workItem from="1586996865131" duration="4520000" />
+      <workItem from="1587265110944" duration="319000" />
+      <workItem from="1587275860853" duration="1282000" />
     </task>
     <servers />
   </component>
@@ -447,10 +298,10 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="771" y="247" width="396" height="581" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1587002071864" />
-    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586398952518">
+    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587265142214">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1586398952518" />
+    <state x="476" y="461" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1587265142214" />
     <state x="663" y="411" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1586398953995">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -479,22 +330,22 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="688" y="297" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1586247260890" />
-    <state width="1079" height="297" key="GridCell.Tab.0.bottom" timestamp="1587002014166">
+    <state width="1079" height="297" key="GridCell.Tab.0.bottom" timestamp="1587002444009">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1079" height="297" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1587002014166" />
-    <state width="1079" height="297" key="GridCell.Tab.0.center" timestamp="1587002014165">
+    <state width="1079" height="297" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1587002444009" />
+    <state width="1079" height="297" key="GridCell.Tab.0.center" timestamp="1587002444007">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1079" height="297" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1587002014165" />
-    <state width="1079" height="297" key="GridCell.Tab.0.left" timestamp="1587002014164">
+    <state width="1079" height="297" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1587002444007" />
+    <state width="1079" height="297" key="GridCell.Tab.0.left" timestamp="1587002444007">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1079" height="297" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1587002014164" />
-    <state width="1079" height="297" key="GridCell.Tab.0.right" timestamp="1587002014165">
+    <state width="1079" height="297" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1587002444007" />
+    <state width="1079" height="297" key="GridCell.Tab.0.right" timestamp="1587002444008">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1079" height="297" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1587002014165" />
+    <state width="1079" height="297" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1587002444008" />
     <state width="908" height="302" key="GridCell.Tab.1.bottom" timestamp="1586247262122">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -555,9 +406,9 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="33" y="155" key="new project wizard/0.24.1920.1056@0.24.1920.1056" timestamp="1586438585071" />
-    <state x="623" y="246" key="run.anything.popup" timestamp="1587001872570">
+    <state x="623" y="246" key="run.anything.popup" timestamp="1587276549145">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="623" y="246" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1587001872570" />
+    <state x="623" y="246" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1587276549145" />
   </component>
 </project>

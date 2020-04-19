@@ -1,9 +1,9 @@
-package basics.new1_8;
+package basics.new1_8.lambda;
 
 
 /**
  * Lambda表达式实例1
- * lambda 表达式的局部变量可以不用声明为 final，但是必须不可被后面的代码修改（即隐性的具有 final 的语义）
+ * basics.new1_8.lambda 表达式的局部变量可以不用声明为 final，但是必须不可被后面的代码修改（即隐性的具有 final 的语义）
  * @author lyy
  */
 public class Java8Tester2 {
