@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="mysql_all" target="7" />
+      <module name="scalaTest" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

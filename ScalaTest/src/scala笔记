@@ -1,0 +1,80 @@
+基础部分
+-------------------------------------------
+1.变量定义
+val  相当于final变量,初始化后不能再赋值
+var  生命周期可以被多次赋值
+（scala字符串是java的String实现的）
+2.函数定义
+//def函数开始定义  函数名  参数列表  结果集类型（函数返回值类型） 等号
+def max(x:Int,y:Int):Int={
+    if(x>y)
+        x
+    else
+        y
+}
+//java返回void的方法被映射返回Unit
+3.数组(实例化后长度固定,内容可变)
+//val greetStrings : Array[String]=new Array[String](3)
+val greetStrings =new Array[String](3)
+greetStrings(0)="Hello"
+greetStrings(1)=","
+greetStrings(2)="world\n"
+for(i<-0 to 2){
+    print(greetStrings(i))
+}
+4.列表（值不可变）
+val oneTwo =List(1,2)
+val threeFour=List(3,4)
+//列表的叠加
+val onTwoThreeFour=oneTwo:::threeFour
+//新元素加到列表最前端
+val oneTwoThree = 2::threeFour
+//列表没有提供append方法(元素增加后时间线性增长),可以通过首部添加,最后reverse逆序
+5.元组(不可变,元素包含不同类型)
+val pair =(99,"xxx")
+println(pair._1)
+println(pair._2)
+6.set map
+7.从文件读取文本行
+import scala.io.Source
+if(args.length>0){
+    for(line<-Source.fromFile(args(0)).getLines)
+        println(line.length+" "+line)
+}
+else
+    Console.err.println("Please enter filename")
+
+类和对象部分
+-------------------------------------------
+class ChecksumAccumulator{
+    var sum=0;
+}
+val acc =new ChecksumAccumulator
+val csa =new ChecksumAccumulator
+内存映像：
+acc ----->ChecksumAccumulator(sum)  }--->0
+csa ----->ChecksumAccumulator(sum)  }
+给定不同的sum值后指向不同的映像
+
+Singleton对象(Scala不能定义静态成员,通过定义单例对象)
+
+//单例对象和某个类共享通名称,为伴生对象,必须定义在同一个源文件中,类和伴生对象可以互相访问私有变量
+import scala.collection.mutable.Map
+
+object ChecksumAccumlator{
+    private val cache=Map[String,Int]()
+    def calculate(s:String):Int=
+        if(cache.contains(s))
+            cache(s)
+        else{
+            val acc=new ChecksumAccumulator
+            for(c<-s)
+                acc.add(c.toByte)
+            val cs=acc.checksum()
+            cache+=(s->cs)
+            cs
+        }
+}
+
+基本类型和操作
+-------------------------------------------
